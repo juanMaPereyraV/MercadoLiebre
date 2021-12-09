@@ -3,7 +3,7 @@ const app = express ();
 
 const path = require ('path');
 
-app.set ('port', 3000);
+app.set ('port',process.env.PORT || 3000);
 
 app.listen (app.get('port'), ()=> console.log('listening on port'));
 
