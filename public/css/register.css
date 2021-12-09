@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap ");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset {
+  box-sizing: content-box;
+  background-color: #eac926;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  background-color: #e0e0e0;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 0;
+  transform-box: fill-box;
+  box-sizing: border-box;
+  border-radius: 31px;
+  border: solid;
+}
+input,
+text {
+  margin-top: 15px;
+}
+.registro input,
+text {
+  width: 100%;
+}
+h4 {
+  padding-inline-end: 157px;
+  padding: 3px 0;
+  text-align: center;
+}
+.Domicilio input,
+text {
+  width: 100%;
+}
+.nacimiento input,
+date {
+  width: 100%;
+}
+.Password input,
+password {
+  width: 100%;
+}
+.Intereses input,
+radio {
+  line-height: 1.5;
+  display: inline-block;
+}
+.fa-gift {
+  color: #0e6bcf;
+  font-size: 2em;
+  margin: 10px;
+  transition: all 0.5ms;
+}
+.fa-gift:hover {
+  color: #666;
+}
+
+.fa-credit-card {
+  color: #0e6bcf;
+  font-size: 2em;
+  margin: 10px;
+  transition: all 0.5ms;
+}
+.fa-credit-card:hover {
+  color: #666;
+}
+
+.fa-user-shield {
+  color: #0e6bcf;
+  font-size: 2em;
+  margin: 10px;
+  transition: all 0.5ms;
+}
+.fa-user-shield:hover {
+  color: #666;
+}
+.txt-fot {
+  text-align: center;
+  color: #adadaddc;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+}
+
+@media (min-width: 769px) {
+  form {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 31px;
+    border: solid;
+  }
+}
+.registro input,
+text {
+  width: 30%;
+}
+
+.Domicilio input,
+text {
+  width: 30%;
+}
+.nacimiento input,
+date {
+  width: 30%;
+}
+.Password input,
+password {
+  width: 30%;
+}
